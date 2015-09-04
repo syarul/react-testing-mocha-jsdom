@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/syarul/react-testing-mocha-jsdom.svg)](https://travis-ci.org/syarul/react-testing-mocha-jsdom)
+[![Coverage Status](https://coveralls.io/repos/syarul/react-testing-mocha-jsdom/badge.svg?branch=master&service=github)](https://coveralls.io/github/syarul/react-testing-mocha-jsdom?branch=master)
 
 *This is __Part 2__ of the series* "Modular Isomorphic React JS applications".
 *See [Part 1](https://github.com/jesstelford/react-isomorphic-boilerplate) and
