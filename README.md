@@ -219,4 +219,3 @@ $ npm test
 
   1 passing (25ms)
 ```
-[![Coverage Status](https://coveralls.io/repos/syarul/react-testing-mocha-jsdom/badge.svg?branch=master&service=github)](https://coveralls.io/github/syarul/react-testing-mocha-jsdom?branch=master)
