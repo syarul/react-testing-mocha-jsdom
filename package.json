@@ -4,14 +4,19 @@
   "version": "1.0.0",
   "description": "Unit testing React with Mocha and jsdom",
   "scripts": {
-    "test": "mocha --compilers js:babel/register --recursive"
+    "test": "gulp test"
   },
   "author": "Jess Telford <hi@jes.st>",
   "license": "ISC",
   "devDependencies": {
     "babel": "^5.1.13",
     "coveralls": "^2.11.4",
-    "istanbul": "^0.3.19",
+    "gulp": "^3.9.0",
+    "gulp-coveralls": "^0.1.4",
+    "gulp-istanbul": "^0.10.0",
+    "gulp-jsx-coverage": "^0.2.5",
+    "gulp-mocha": "^2.1.3",
+    "gulp-spawn-mocha": "^2.2.1",
     "jsdom": "^2.0.0",
     "mocha": "^2.1.0"
   },
@@ -19,6 +24,6 @@
     "react": "^0.12.1"
   },
   "bin": {
-    "coveralls": "./bin/coveralls.js"
+    "coveralls": "./node_modules/coveralls/bin/coveralls.js"
   }
 }
