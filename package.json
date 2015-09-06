@@ -22,8 +22,5 @@
   },
   "dependencies": {
     "react": "^0.12.1"
-  },
-  "bin": {
-    "coveralls": "./node_modules/coveralls/bin/coveralls.js"
   }
 }

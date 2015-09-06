@@ -13,7 +13,7 @@ test-cov:
 	./node_modules/mocha/bin/_mocha -- -R spec
 
 test-coveralls:
-	@NODE_ENV=test cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js \
+	@NODE_ENV=test gulp test && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js \
 	&& rm -rf ./coverage
 
 .PHONY: test
